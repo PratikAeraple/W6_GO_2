@@ -7,7 +7,7 @@ This API allows you to perform basic CRUD operations on a hospital patient log b
 - **Response**:
     - Successfully running Server on port 9090
 
-- **Postman Screenshot**:
+- **VS Code Screenshot**:
 ![Create Patient (POST)](screenshots/vs_code.png)
 
 ---
@@ -77,7 +77,7 @@ This API allows you to perform basic CRUD operations on a hospital patient log b
 - **Example**:
     - `http://localhost:9090/patients/1` to delete the patient with ID 1.
 - **Response**:
-    - On success, it returns a 'NULL' No Content response.
+    - On success, it returns a 'Patient not found' response.
     - If the patient is not found, a 404 error is returned.
 
 - **Postman Screenshot**:
